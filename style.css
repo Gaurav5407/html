@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+#Banner {
+    min-height: 380px;
+    background-position: center;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0)0%, rgba(0, 0, 0, 0.06) 10%, rgba(0, 0, 0, 0.15) 22%, rgba(0, 0, 0, 0.72) 75%, rgba(0, 0, 0, 0.84) 89%, rgba(0, 0, 0, 0.91) 100%),url("Images/banner3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+       
+}
+
+.Heading {
+    padding-top: 100px;
+}
+
+div.viewphoto {
+    position: absolute;
+    left: 100px;
+    bottom: 0;
+}
+
+.main {
+    margin-top: 25px;
+}
+
+.mapIcon {
+    height: 25px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+}
+
+.play-logo {
+    width: 93px;
+}
+
+.form-heading {
+    background-color: #40abbc;
+}
+
+.start-date {
+    background-image: url(Images/icon3.png);
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    padding-left: 40px;
+}
+
+.form-footer {
+    font-size: 14px;
+}
+
+.list ul li {
+    display: inline-block;
+    text-align: center;
+    width: 15%;
+}
+
+.list {
+    border-top: 1px solid;
+}
+
+.video {
+    width: 100%;
+}
+
+h2 {
+    font-size: 36px;
+    color: #85C1E9;
+}
+
+h4 {
+    color: #e53b51;
+    padding-top: 10px;
+}
+
+.cost-container {
+    border: 1px solid #ccc;
+    /*padding:25px;*/
+}
+   
+    .btn-container {
+        border-top: 1px solid #ccc;
+        margin-bottom: 10px;
+    }
+
+    .flex-container > div {
+        background-color: #f1f1f1;
+        width: 100px;
+        margin: 10px;
+        text-align: center;
+        
+    }
+    .flex-container > div > button {
+        color:#85C1E9;
+    }
+.div-container {
+    padding-right: 0;
+    padding-left: 0;
+}
+.forhover:hover {
+    background-color:#e53b51;
+}
+.cost-column {
+    border-right: 1px solid #ccc;
+}
