@@ -1,0 +1,300 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+}
+/*Banner*/
+
+.Banner {
+    background-position: center;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0)0%, rgba(0, 0, 0, 0.06) 10%, rgba(0, 0, 0, 0.15) 22%, rgba(0, 0, 0, 0.72) 75%, rgba(0, 0, 0, 0.84) 89%, rgba(0, 0, 0, 0.91) 100%),url("Images/banner3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 300px;
+    max-width: 100%;
+}
+
+.nav-link {
+    font-size: 15px;
+}
+hr {
+    border-color: #f8f9fa;
+    opacity: 0.4;
+}
+.Banner-header {
+    font-size: 48px;
+    color: #ffffff;
+    font-weight: bold;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.btn-login {
+    background-color: transparent;
+    border: 1px solid #ccc;
+    border-radius: 0.5px;
+    color: white;
+}
+
+.bt-banner-photo {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+
+
+header nav {
+    height: 60px;
+}
+
+
+
+
+
+.main {
+    margin-top: 25px;
+}
+
+.mapIcon {
+    height: 25px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+}
+.header-footer {
+    display: flex;
+    flex-wrap: wrap;
+}
+.heading-content{
+    display:flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+}
+/*.play-logo {
+    width: 93px;
+}*/
+.navbar-header div{
+    display:flex;
+    width:100%;
+}
+
+.navbar-header div div{
+    flex:1;
+}
+.form-heading {
+    background-color: #40abbc;
+}
+
+.start-date {
+    background-image: url(Images/icon3.png);
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    padding-left: 40px;
+}
+
+.form-footer {
+    font-size: 14px;
+}
+
+.list ul li {
+    display: inline-block;
+    text-align: center;
+    width: 15%;
+}
+
+.list {
+    border-top: 1px solid;
+}
+
+.video {
+    width: 100%;
+}
+
+h2 {
+    font-size: 36px;
+    color: #00acc1;
+    font-weight:bold;
+}
+h3 {
+    color: #00acc1;
+    font-weight: bold;
+}
+
+h4 {
+    color: #e53b51;
+    padding: 10px;
+}
+
+
+.btn-container {
+    border-top: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+.flex-container > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+}
+
+    .flex-container > div > button {
+        color: #85C1E9;
+    }
+
+.div-container {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.forhover:hover {
+    background-color: #e53b51;
+}
+
+
+.cost-column1-img {
+    align-content:center;
+}
+
+.cost-column2 {
+    display:inline-block;
+}
+
+.navigation li {
+    display: block;
+}
+
+.banner-login {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+li div {
+    height: 100%;
+    margin: auto;
+}
+
+
+.cost-div div{
+    display:flex;
+    flex-wrap:wrap;
+}
+.cost-div {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+.cost-column1 {
+    width: 50%;
+    border-right: 1px solid #ccc;
+}
+
+.included {
+    border-right: 1px solid #ccc;
+}
+
+.include-header {
+    background-color: #00acc1;
+    padding: 5px 0px 5px 50px;
+    font-size:22px;
+}
+    .include-header div {
+        border-right: 1px solid #ccc;
+    }
+    .not-include-header {
+        background-color: #e53b51;
+        padding: 5px 0px 5px 50px;
+        font-size: 22px;
+    }
+.defference-content {
+    padding: 15px 0px 18px 50px;
+}
+.table td, th {
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+}
+    .table thead {
+        background-color: #00acc1;
+    }
+
+.table-number {
+    color: #e53b51;
+}
+
+.table-Sunday {
+    color: #00acc1;
+}
+
+/*navigation-header*/
+
+@media only screen and (min-width: 600px) {
+    .play-logo {
+        width: 93px;
+    }
+    h2 {
+        font-size: 36px;
+        color: #00acc1;
+        font-weight: bold;
+    }
+
+    h3 {
+        color: #00acc1;
+        font-weight: bold;
+    }
+    .header-footer div {
+        margin-right:25px;
+
+    }
+    .khumasi {
+        font-size: 25px;
+        font-weight: bold;
+    }
+}
+@media only screen and (max-width: 599px) {
+    .play-logo {
+       max-width:60px;
+        max-height:60px;
+    }
+    h2 {
+        font-size: 24px;
+        color: #00acc1;
+        font-weight: bold;
+    }
+
+    h3 {
+        font-size:21px;
+        color: #00acc1;
+        font-weight: bold;
+    }
+    .header-footer div img{
+        display:block;
+    }
+    .header-footer div {
+        margin-right: 10px;
+        max-width:50%;
+    }
+    .khumasi {
+        font-size: 16px;
+        font-weight: bold;
+    }
+    nav img {
+        max-width: 145px;
+        max-height: 50px;
+    }
+    .Banner-header {
+        font-size: 24px;
+        text-align: center;
+    }
+}
