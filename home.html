@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Home Page</title>
+
+    <link href="C:\Users\pca104\Downloads\bootstrap-4.4.1-dist\bootstrap-4.4.1-dist\css\bootstrap.min.css" rel="stylesheet">
+    <link href="Style.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
+    <link href="../OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css" rel="stylesheet" />
+    <link href="../OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css" rel="stylesheet" />
+    <link href="../DropKick-master/dist/dropkick.css" rel="stylesheet" />
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="../DropKick-master/dist/dropkick.js"></script>
+    <script src="../OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('.owl-carousel').owlCarousel({
+                margin: 10,
+                navText: ["<div class='nav-btn prev-slide'></div>", "<div class='nav-btn next-slide'></div>"],
+                nav: true,
+
+                responsiveClass: true,
+                responsive: {
+                    0: {
+                        items: 1,
+
+                    },
+                    600: {
+                        items: 2,
+
+                    },
+                    1000: {
+                        items: 4,
+
+                    }
+                }
+            })
+        });
+    </script>
+</head>
+<body>
+    <div class="container-fluid Banner">
+        <nav class="navbar navbar-expand-lg  header-navbar">
+            <img src="../Images/logo_1.png" class="banner-logo" />
+            <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon">
+                    <img src="../Images/menu.svg" />
+                </span>
+            </button>
+
+            <div class="navbar-collapse collapse header-link" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto navbar-ul">
+                    <li class="nav-item pr-5">
+                        <a class="nav-link text-uppercase text-white" href="#">how it works</a>
+                    </li>
+                    <li class="nav-item pr-5">
+                        <a class="nav-link text-uppercase text-white" href="#">contact us</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <button class="btn my-2 my-sm-0 text-white border-light btn-login">Login</button>
+                </form>
+            </div>
+        </nav>
+        <hr>
+        <div class="Banner-header">Discover Yourself, Discover the World</div>
+        <div class="banner-description">Apply to your perfect volunteer, intern, or teach abroad program</div>
+    </div>
+    <!--Trending Project-->
+    <!--<div class="main">
+        <div class="trending-project">
+            <div class="main-header">Trending Project</div>
+            <div class="card trending-project-card">
+                <div class="card-content card-img-overlay text-white d-flex flex-column justify-content-end ">
+                    <div class="trending-project-card-header">Costa Rica</div>
+                    <div class="trending-project-card-heading">Medical support in qapos</div>
+                    <div class="trending-project-card-content">Global Volunteering International</div>
+                    <div class="trending-project-card-footer">12 people reserching this project</div>
+                </div>
+            </div>
+        </div>
+    </div>-->
+    <div class="main">
+        <div class="carousel-wrap">
+            <div class="main-header">Trending Project</div>
+            <div class="owl-carousel owl-theme">
+
+                <div class="card trending-project-card card1 item">
+                    <div class="card-content card-img-overlay text-white d-flex flex-column justify-content-end ">
+                        <div class="trending-project-card-header">Costa Rica</div>
+                        <div class="trending-project-card-heading">Medical support in qapos</div>
+                        <div class="trending-project-card-content">Global Volunteering International</div>
+                        <div class="trending-project-card-footer">12 people reserching this project</div>
+                    </div>
+                </div>
+                <div class="card trending-project-card card2 item">
+                    <div class="card-content card-img-overlay text-white d-flex flex-column justify-content-end ">
+                        <div class="trending-project-card-header">Costa Rica</div>
+                        <div class="trending-project-card-heading">Medical support in qapos</div>
+                        <div class="trending-project-card-content">Global Volunteering International</div>
+                        <div class="trending-project-card-footer">12 people reserching this project</div>
+                    </div>
+                </div>
+                <div class="card trending-project-card card3 item">
+                    <div class="card-content card-img-overlay text-white d-flex flex-column justify-content-end ">
+                        <div class="trending-project-card-header">Costa Rica</div>
+                        <div class="trending-project-card-heading">Medical support in qapos</div>
+                        <div class="trending-project-card-content">Global Volunteering International</div>
+                        <div class="trending-project-card-footer">12 people reserching this project</div>
+                    </div>
+                </div>
+
+                <div class="card trending-project-card card4 item">
+                    <div class="card-content card-img-overlay text-white d-flex flex-column justify-content-end ">
+                        <div class="trending-project-card-header">Costa Rica</div>
+                        <div class="trending-project-card-heading">Medical support in qapos</div>
+                        <div class="trending-project-card-content">Global Volunteering International</div>
+                        <div class="trending-project-card-footer">12 people reserching this project</div>
+                    </div>
+                </div>
+                <div class="card trending-project-card card5 item">
+                    <div class="card-content card-img-overlay text-white d-flex flex-column justify-content-end ">
+                        <div class="trending-project-card-header">Costa Rica</div>
+                        <div class="trending-project-card-heading">Medical support in qapos</div>
+                        <div class="trending-project-card-content">Global Volunteering International</div>
+                        <div class="trending-project-card-footer">12 people reserching this project</div>
+                    </div>
+                </div>
+                <div class="card trending-project-card card6 item">
+                    <div class="card-content card-img-overlay text-white d-flex flex-column justify-content-end ">
+                        <div class="trending-project-card-header">Costa Rica</div>
+                        <div class="trending-project-card-heading">Medical support in qapos</div>
+                        <div class="trending-project-card-content">Global Volunteering International</div>
+                        <div class="trending-project-card-footer">12 people reserching this project</div>
+                    </div>
+                </div>
+                <div class="card trending-project-card card7 item">
+                    <div class="card-content card-img-overlay text-white d-flex flex-column justify-content-end ">
+                        <div class="trending-project-card-header">Costa Rica</div>
+                        <div class="trending-project-card-heading">Medical support in qapos</div>
+                        <div class="trending-project-card-content">Global Volunteering International</div>
+                        <div class="trending-project-card-footer">12 people reserching this project</div>
+                    </div>
+                </div>
+                <div class="card trending-project-card card8 item">
+                    <div class="card-content card-img-overlay text-white d-flex flex-column justify-content-end ">
+                        <div class="trending-project-card-header">Costa Rica</div>
+                        <div class="trending-project-card-heading">Medical support in qapos</div>
+                        <div class="trending-project-card-content">Global Volunteering International</div>
+                        <div class="trending-project-card-footer">12 people reserching this project</div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+    <div class="main">
+        <div class="carousel-wrap">
+            <div class="main-header">Trending Project</div>
+            <div class="owl-carousel owl-theme">
+
+                <div class="card item">
+                    <img src="../Images/thumb01.jpg" />
+                    <div class="card-content card-img-overlay text-white d-flex flex-column justify-content-end ">
+                        <div class="trending-project-card-header">Costa Rica</div>
+                        <div class="trending-project-card-heading">Medical support in qapos</div>
+                        <div class="trending-project-card-content">Global Volunteering International</div>
+                        <div class="trending-project-card-footer">12 people reserching this project</div>
+                    </div>
+                </div>
+                <div class="card item">
+                    <img src="../Images/thumb02.jpg" />
+                    <div class="card-content card-img-overlay text-white d-flex flex-column justify-content-end ">
+                        <div class="trending-project-card-header">Costa Rica</div>
+                        <div class="trending-project-card-heading">Medical support in qapos</div>
+                        <div class="trending-project-card-content">Global Volunteering International</div>
+                        <div class="trending-project-card-footer">12 people reserching this project</div>
+                    </div>
+                </div>
+                <div class="card item">
+                    <img src="../Images/thumb03.jpg" />
+                    <div class="card-content card-img-overlay text-white d-flex flex-column justify-content-end ">
+                        <div class="trending-project-card-header">Costa Rica</div>
+                        <div class="trending-project-card-heading">Medical support in qapos</div>
+                        <div class="trending-project-card-content">Global Volunteering International</div>
+                        <div class="trending-project-card-footer">12 people reserching this project</div>
+                    </div>
+                </div>
+
+                <div class="card item">
+                    <img src="../Images/thumb04.jpg" />
+                    <div class="card-content card-img-overlay text-white d-flex flex-column justify-content-end ">
+                        <div class="trending-project-card-header">Costa Rica</div>
+                        <div class="trending-project-card-heading">Medical support in qapos</div>
+                        <div class="trending-project-card-content">Global Volunteering International</div>
+                        <div class="trending-project-card-footer">12 people reserching this project</div>
+                    </div>
+                </div>
+                <div class="card item">
+                    <img src="../Images/thumb05.jpg" />
+                    <div class="card-content card-img-overlay text-white d-flex flex-column justify-content-end ">
+                        <div class="trending-project-card-header">Costa Rica</div>
+                        <div class="trending-project-card-heading">Medical support in qapos</div>
+                        <div class="trending-project-card-content">Global Volunteering International</div>
+                        <div class="trending-project-card-footer">12 people reserching this project</div>
+                    </div>
+                </div>
+                <div class="card item">
+                    <img src="../Images/thumb06.jpg" />
+                    <div class="card-content card-img-overlay text-white d-flex flex-column justify-content-end ">
+                        <div class="trending-project-card-header">Costa Rica</div>
+                        <div class="trending-project-card-heading">Medical support in qapos</div>
+                        <div class="trending-project-card-content">Global Volunteering International</div>
+                        <div class="trending-project-card-footer">12 people reserching this project</div>
+                    </div>
+                </div>
+                <div class="card item">
+                    <img src="../Images/thumb07.jpg" />
+                    <div class="card-content card-img-overlay text-white d-flex flex-column justify-content-end ">
+                        <div class="trending-project-card-header">Costa Rica</div>
+                        <div class="trending-project-card-heading">Medical support in qapos</div>
+                        <div class="trending-project-card-content">Global Volunteering International</div>
+                        <div class="trending-project-card-footer">12 people reserching this project</div>
+                    </div>
+                </div>
+                <div class="card item">
+                    <img src="../Images/thumb08.jpg" />
+                    <div class="card-content card-img-overlay text-white d-flex flex-column justify-content-end ">
+                        <div class="trending-project-card-header">Costa Rica</div>
+                        <div class="trending-project-card-heading">Medical support in qapos</div>
+                        <div class="trending-project-card-content">Global Volunteering International</div>
+                        <div class="trending-project-card-footer">12 people reserching this project</div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+</html>
